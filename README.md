@@ -4,7 +4,7 @@ The objective of this project is to develop an efficient route planning algorith
 
 To implement this algorithm, we leverage the Google Maps API to obtain geolocation data and calculate distances and travel times between different points on the map. It is important to acquire your own Google Maps API key, which can be obtained from the Google Cloud Platform.
 
-The project is implemented in Python 3.6.2 and requires several libraries, including TensorFlow, NumPy, pandas, haversine, time, random, math, requests, and urllib. Make sure to install these libraries before running the program.
+The project is implemented in Python and requires several libraries, including TensorFlow, NumPy, pandas, haversine, time, random, math, requests, and urllib. Make sure to install these libraries before running the program.
 
 To get started with the project, download all the necessary Python files: main.py, Environment.py, DoubleDQN.py, battery.py, and motor.py. In the main.py file, you need to specify the start and destination positions either by their names or geocodes. Additionally, you can adjust parameters such as step length and the number of training episodes to suit your requirements.
 
