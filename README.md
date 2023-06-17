@@ -29,3 +29,9 @@ Once the learning process is complete, the algorithm can be applied to find opti
 The potential applications of this project extend to various areas, including transportation planning, logistics, and real-time EV navigation. It contributes to the development of eco-friendly and energy-efficient transportation systems, promoting sustainability and reducing carbon emissions.
 
 In conclusion, this project demonstrates the use of reinforcement learning techniques to optimize electric vehicle route planning. The algorithm, based on the Double-DQN approach, takes into account various factors such as battery capacity, motor performance, traffic conditions, and energy consumption. By utilizing the Google Maps API and incorporating grid-based learning environments, the algorithm provides efficient navigation solutions for EVs. The project offers room for customization and expansion, allowing for the inclusion of additional features and the exploration of different learning algorithms or network architectures. 
+
+References:-
+https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+https://arxiv.org/abs/1602.02867
+https://arxiv.org/pdf/2011.01771.pdf
+https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
