@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Route Finder</title>
+      
+      <link rel="stylesheet" type="text/css" href="css.css">
+
+   </head>
+   <body>
+      <div id="form">
+         <label for="start">Starting Address:</label>
+         <input type="text" id="start" name="start" placeholder="Enter starting address...">
+         <br><br>
+         <label for="dest">Destination:</label>
+         <input type="text" id="dest" name="dest" placeholder="Enter destination...">
+         <br><br>
+         <label for="loc">Current Location:</label>
+         <input type="text" id="loc" name="loc" placeholder="Enter current location...">
+         <br><br>
+         <button onclick="getLocation()">Get Location</button>
+         <br><br>
+         <button onclick="getCoords()">Get Route</button>
+      </div>
+      
+      <script>
+         function getCoords() {
+            var start = document.getElementById("start").value;
+            var dest = document.getElementById("dest").value;
+            var loc = document.getElementById("loc").value;
+            
+            // Use a geocoding API to convert the addresses to coordinates
+            // Use the coordinates in your main file to generate a map or route
+         }
+         
+         function getLocation() {
+            if (navigator.geolocation) {
+               navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+               alert("Geolocation is not supported by this browser.");
+            }
+         }
+         
+         function showPosition(position) {
+            var lat = position.coords.latitude;
+            var lng = position.coords.longitude;
+            
+            document.getElementById("loc").value = lat + "," + lng;
+         }
+      </script>
+   </body>
+</html>
