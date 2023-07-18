@@ -1,6 +1,6 @@
 # EcoMotion
 
-The objective of this project is to develop an efficient route planning algorithm for electric vehicles (EVs) by employing reinforcement learning techniques. The algorithm takes various factors into consideration, such as battery capacity, motor performance, traffic conditions, and energy consumption, to generate optimal routes that minimize energy usage.
+The objective of this project is to develop an efficient route planning algorithm for electric vehicles (EVs) by employing reinforcement learning techniques. The algorithm takes various factors into consideration, such as battery capacity, motor performance, traffic conditions, and energy consumption, to generate optimal routes that minimize energy usage. 
 
 To implement this algorithm, we leverage the Google Maps API to obtain geolocation data and calculate distances and travel times between different points on the map. It is important to acquire your own Google Maps API key, which can be obtained from the Google Cloud Platform.
 
